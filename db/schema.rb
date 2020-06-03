@@ -12,4 +12,9 @@
 
 ActiveRecord::Schema.define(version: 2020_06_03_213930) do
 
+  create_table "articles", force: :cascade do |t|
+    t.string "title"
+    t.string "content"
+  end
+
 end
